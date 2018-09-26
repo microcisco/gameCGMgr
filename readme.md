@@ -15,4 +15,5 @@ added: v1.0.0
 * `startMedia` {开始播放}
 * `setOnClickCallback` {设置播放过程中点击回调}
 * `setCGCompletionCallback` {设置播放结束回调}
+
 所有API都由CGMgr代理并且全部是静态方法（方便在GL线程调用）并且持有active的弱引用（避免内存泄漏），使用过程中发现问题欢迎提issues。
